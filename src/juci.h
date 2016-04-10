@@ -20,6 +20,9 @@
 #include <blobpack/blobpack.h>
 #include <libutype/avl.h>
 #include <libutype/avl-cmp.h>
+#ifndef GLOB_TILDE
+#define GLOB_TILDE 0
+#endif
 
 #include "juci_session.h"
 
